@@ -7,4 +7,4 @@
 使用相对路径和requirejs。
 
 ##
-[项目结构详解](https:/daydayupsnail.github.io/2016/12/16/fis3-detail/)
+[项目结构详解](https://daydayupsnail.github.io/2016/12/16/fis3-detail/)
