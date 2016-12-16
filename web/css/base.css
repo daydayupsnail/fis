@@ -1,0 +1,195 @@
+@import url('reset.css?__inline');
+body{
+  font-family: 微软雅黑;
+}
+/*容器*/
+.wapper{
+  width:1002px;
+  margin: 0 auto;
+  position: relative;
+}
+
+a{
+  cursor: pointer;
+}
+i{
+  *display: inline-block;
+}  
+
+/*可带二级的导航*/
+.nav{
+  text-align: center;
+}
+.nav ul{
+  width: 100%;
+}
+.nav>ul{
+  height: 100%;
+}
+.nav ul li{
+  float: left;
+  cursor: pointer;
+}
+
+.nav ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.nav-vertical ul li{
+  width:100%;
+  float:none;
+}
+.nav ul li.last{
+  margin-right:0;
+}
+.nav-vertival li{
+  width:100%;
+}
+
+/*日历*/
+.calendar{
+  font-family: Arial;
+  width:76px;
+  height:90px;
+  text-align: center;
+  color:#593b7a;
+  border:1px solid #e8e3e2;
+}
+.calendar .day{
+  height:60px;
+  line-height: 60px;
+  font-size: 40px;
+  background: #cbcbcb;
+}
+.calendar .month{
+  height:30px;
+  line-height: 30px;
+  font-size:16px;
+  background: #efefef;
+}
+
+/*图片消息*/
+.imgbg img{
+  width: 100%;
+  height: 100%;
+}
+.imgitem{
+  position: relative;
+}
+.imgitem .imgbg{
+  position: relative;
+  width: 100%;
+  height:100%;
+}
+.imgitem .imgbg img{
+  position:absolute;
+}
+.imgitem .calendar{
+  position: absolute;
+  width:78px;
+  top:12px;
+  left:8px;
+  border:none;
+  color:#fefeff;
+  z-index: 1;  
+}
+.imgitem .bottom{
+  position: absolute;
+  bottom:0;
+  height:36px;
+  width:100%;
+  line-height:36px;
+  text-indent: 8px;
+  font-size:16px;
+  color:#fefeff;
+  z-index: 1;  
+  background:rgba(0,0,0,0.6); 
+  filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#8F000000,endcolorstr=#8F000000);
+}
+.imgitem .calendar .day,
+.imgitem .calendar .month
+{
+  background: #593b7a;
+}
+.imgitem .calendar .day{
+  line-height: 63px;
+}
+.imgitem .calendar .month{
+  line-height: 11px;
+    font-size: 12px;
+}
+
+
+/*图标*/
+.normalicon.time{
+  padding: 5.5px 6px;
+  *padding:3px 6px;
+  background: url(../images/index/rightaside.png) -147px 9px no-repeat;
+  margin-right: 4px;
+}
+.normalicon.address{
+  padding: 8px;
+  *padding:4px 8px;
+  background: url(../images/index/rightaside.png) -159px 9px no-repeat;
+  margin-right: 4px;
+}
+
+
+/*边栏*/
+.aside{
+  position: fixed;
+  height: 280px;
+  width: 52px;
+  margin-top: -140px;
+  /* top: 50%; */
+  top: 50%;
+  right: 0px;
+}
+.aside li{
+  margin-bottom:2px;
+  height:54px;
+}
+.aside i{
+  *margin-top:-20px;
+}
+.aside a{
+  background:#792071;  
+}
+.aside a:hover{
+   background:#472765
+}
+.aside .wechat{
+  position:relative;
+}
+.aside .wechat img{
+  position: absolute;
+  right:-130px;
+  top:0;
+}
+.aside .wechat i{
+  padding:20.5px 16px;
+  background: url(../images/index/rightaside.png) 0px 32px no-repeat;
+}
+.aside .phone i{
+  padding: 22.5px 10px;
+  background: url(../images/index/rightaside.png) -34px 32px no-repeat;
+}
+.aside .book i{
+  padding: 22.5px 14px;
+  background: url(../images/index/rightaside.png) -55px 32px no-repeat;
+}
+.aside .chat i{
+  padding: 22.5px 17px;
+  background: url(../images/index/rightaside.png) -84px 32px no-repeat;
+}
+.aside .totop i{
+  padding: 22.5px 13px;
+  background: url(../images/index/rightaside.png) -120px 32px no-repeat;
+}
+.relativebox{
+  position: relative;
+}
+.routeway a:hover{
+  color:#9f6da7;
+}
